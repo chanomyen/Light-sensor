@@ -7,10 +7,10 @@
 struct setting
 {
   uint16_t interval   = 5;
-  // char * ssid         = "LPR";
-  // char * password     = "0024261362";
-  char * ssid         = "Greenhouse";
-  char * password     = "0940815410";
+  char * ssid         = "LPR";
+  char * password     = "0024261362";
+  // char * ssid         = "Greenhouse";
+  // char * password     = "0940815410";
   uint16_t port        = 5555;
   IPAddress local_ip  = {192,168,1,144};
   IPAddress target_ip = {192,168,1,37};   
